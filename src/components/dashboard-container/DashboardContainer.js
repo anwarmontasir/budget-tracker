@@ -7,8 +7,8 @@ import {
   categoryDelete
 } from '../../actions/category-actions';
 import * as utils from '../../lib/utils';
-import CategoryForm from '../category-form';
-import CategoryItem from '../category-item';
+import CategoryForm from '../category-form/CategoryForm';
+import CategoryItem from '../category-item/CategoryItem';
 
 class DashboardContainer extends Component {
 
