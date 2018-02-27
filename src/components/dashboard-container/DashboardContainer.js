@@ -14,9 +14,9 @@ class DashboardContainer extends Component {
 
   static propTypes = {
     categories: PropTypes.array,
-    categoryCreate: PropTypes.object,
-    categoryUpdate: PropTypes.object,
-    categoryDelete: PropTypes.object
+    categoryCreate: PropTypes.func,
+    categoryUpdate: PropTypes.func,
+    categoryDelete: PropTypes.func
   };
 
   componentDidMount() {
